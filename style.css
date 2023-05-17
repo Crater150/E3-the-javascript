@@ -1,0 +1,63 @@
+body {
+    background-color: #0f120ed6;
+    color: white;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.ingresarNumero {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    padding: 5px 9px;
+}
+
+.btn-agregar {
+    margin: 0rem 4rem;
+    padding: 7px 5px;
+    background-color: pink;
+    border: none;
+}
+
+
+
+.contenedor-pizza {
+    display: flex;
+    border-color: black;
+    border: 17px white solid;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.imagen-pizza {
+    width: 17rem;
+    height: 16rem;
+    border-radius: 30px;
+}
+
+.msj-error{
+    border-color: red;
+    border-radius: 8px;
+    color: red;
+}
